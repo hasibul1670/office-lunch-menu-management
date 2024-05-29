@@ -12,7 +12,6 @@ import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
 import * as React from "react";
 import { dateFormater } from "../../utils/dateFormater";
-import { Button } from "./Button";
 
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
@@ -29,7 +28,7 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
   }),
 }));
 
-export default function CardComponent({ data, handleSelectMenu }: any) {
+export default function CardComponent2({ data }: any) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -38,28 +37,20 @@ export default function CardComponent({ data, handleSelectMenu }: any) {
 
   return (
     <Card
-      sx={{ maxWidth: 270, padding: 2, bgcolor: "#fff8e1" }}
+      sx={{ maxWidth: 300, padding: 2, bgcolor: "#fff8e1" }}
       className="bg-red-400 mt-5 ml-5"
     >
       <CardMedia
         component="img"
-        sx={{ height: 140 }}
+        sx={{ height: 160 }}
         image="https://lifeloveandgoodfood.com/wp-content/uploads/2023/03/chicken_fried_rice00032a-1200x1200-1.jpg"
         alt="Fried Rice dish"
       />
 
-      <p className="text-xl font-bold"> {data.menuName} </p>
+      <p className="text-xl font-bold"> {data.menu.menuName} </p>
       <p> {dateFormater(data?.date)} </p>
 
       <CardActions disableSpacing>
-        <div className="sm:col-span-1">
-          <Button
-            onClick={() => handleSelectMenu(data)}
-            className="bg-sky-600 text-bold"
-          >
-            Select{" "}
-          </Button>
-        </div>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
@@ -71,7 +62,7 @@ export default function CardComponent({ data, handleSelectMenu }: any) {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          {data.option_details.map((op: any, index: any) => (
+          {data?.menu?.option_details.map((op: any, index: any) => (
             <div
               key={index}
               className="border-2 border-blue-600 mb-2 rounded-md p-2"

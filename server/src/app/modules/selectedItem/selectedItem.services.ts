@@ -1,18 +1,47 @@
+import ApiError from '../../../errors/ApiError';
 import prisma from '../../../shared/prisma';
 
 const createSelectedItem = async (payload: ISelectedItem) => {
-  const { date, ...others } = payload;
+  const { userId, menuId, date, ...others } = payload;
+
+  const existingSelection = await prisma.choice.findFirst({
+    where: {
+      userId,
+      date,
+    },
+  });
+
+  if (existingSelection) {
+    throw new ApiError(409, 'You already selected lunch menu for today !');
+  }
+
   const result = await prisma.choice.create({
     data: {
+      userId,
+      menuId,
       date,
       ...others,
     },
   });
+
   return result;
 };
 
 const getAllSelected = async () => {
-  const res = await prisma.choice.findMany({});
+  const res = await prisma.choice.findMany({
+    include: {
+      menu: true,
+      user: {
+        select: {
+          id: true,
+          username: true,
+          role: true,
+          email: true,
+        },
+      },
+    },
+  });
+
   return res;
 };
 

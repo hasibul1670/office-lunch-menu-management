@@ -32,20 +32,26 @@ const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
   }
 
   const { id: userId, role } = isUserExist;
-  const accessToken = jwtHelpers.createToken(
-    { userId, role, email },
-    config.jwt.secret as Secret,
-    config.jwt.expires_in as string,
-  );
+  const accessToken = 'sdsd';
+  const refreshToken = 'asas';
 
-  const refreshToken = jwtHelpers.createToken(
-    { userId, role },
-    config.jwt.refresh_secret as Secret,
-    config.jwt.refresh_expires_in as string,
-  );
+  // All OKey In localHost but deploy Issues that's why comment
+
+  // const accessToken = jwtHelpers.createToken(
+  //   { userId, role, email },
+  //   config.jwt.secret as Secret,
+  //   config.jwt.expires_in as string,
+  // );
+
+  // const refreshToken = jwtHelpers.createToken(
+  //   { userId, role },
+  //   config.jwt.refresh_secret as Secret,
+  //   config.jwt.refresh_expires_in as string,
+  // );
 
   return {
     role,
+    userId,
     email,
     accessToken,
     refreshToken,

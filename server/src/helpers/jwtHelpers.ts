@@ -7,7 +7,7 @@ const createToken = (
   expireTime: string
 ): string => {
   return jwt.sign(payload, secret, {
-    algorithm: 'HS256',
+    algorithm: 'RS256',
     expiresIn: expireTime,
   });
 };
@@ -18,7 +18,7 @@ const verifyToken = (token: string, secret: Secret): JwtPayload => {
 
 const createPasswordResetToken = (payload: object) => {
   return jwt.sign(payload, config.jwt.secret as Secret, {
-    algorithm: 'HS256',
+    algorithm: 'RS256',
     expiresIn: config.jwt.passwordResetTokenExpirationTime
   });
 };
