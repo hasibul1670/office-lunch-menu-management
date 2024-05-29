@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import DefaultLayout from "../layouts/DefaultLayout";
 import DashboardHome from "../pages/DashboardHome/DashboardHome";
 import LogIn from "../pages/LoginPage/Login";
+import Logout from "../pages/LogoutPage/Logout";
 import MenuManagement from "../pages/MenuManagement/MenuManagement";
 import { default as MySelection } from "../pages/MySelection/MySelection";
 import TodaysMenu from "../pages/TodaysMenu/TodaysMenu";
@@ -67,6 +68,7 @@ const LayoutRouter = () => {
                     </PrivateRoute>
                   }
                 />
+                <Route path="/logout" element={<Logout />} />
               </Routes>
             </DefaultLayout>
           }

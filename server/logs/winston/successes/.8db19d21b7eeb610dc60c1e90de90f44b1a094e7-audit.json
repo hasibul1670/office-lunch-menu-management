@@ -94,6 +94,11 @@
             "date": 1716986209137,
             "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\OLMM-2024-29-05-18-success.log",
             "hash": "8107088ff7a97974322ce9eb1d3fcd772cebad88483b0e3a987de66b715b5327"
+        },
+        {
+            "date": 1716990663472,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\OLMM-2024-29-05-19-success.log",
+            "hash": "b973a3ef3cb29889309242c9c01166833453c90fab6814b2162bce47f5ceb08c"
         }
     ],
     "hashType": "sha256"

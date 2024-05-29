@@ -22,6 +22,7 @@
     "@mui/x-date-pickers": "^7.5.1",
     "@reduxjs/toolkit": "^2.2.2",
     "dayjs": "^1.11.11",
+    "jwt-decode": "^4.0.0",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

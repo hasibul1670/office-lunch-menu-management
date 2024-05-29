@@ -22,6 +22,8 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
     message: 'User logged in successfully !',
     data: {
       accessToken: result.accessToken,
+      role: result.role,
+      email: result.email,
     },
   });
 });
@@ -47,11 +49,7 @@ const refreshToken = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-
-
-
-
 export const AuthController = {
   loginUser,
-  refreshToken
+  refreshToken,
 };

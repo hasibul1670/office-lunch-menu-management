@@ -16,6 +16,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import * as React from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 import { useLoginUserMutation } from "../../redux/features/auth/authApi";
 
 function Copyright(props: any) {
@@ -36,6 +38,10 @@ function Copyright(props: any) {
 const defaultTheme = createTheme();
 
 export default function LogIn() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.path || "/";
+
   const [loginUser] = useLoginUserMutation();
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -47,7 +53,32 @@ export default function LogIn() {
     };
 
     const res: any = await loginUser({ data: payload });
-    console.log("Hello ------------->", res);
+    const token = res.data.data.accessToken;
+    const email = res.data.data.email;
+    const role = res.data?.data?.role;
+    localStorage.setItem("token", token);
+    localStorage.setItem("email", email);
+    localStorage.setItem("role", role);
+
+    console.log("Hello ------------->",res, email,role);
+    if (res.data?.statusCode === 200) {
+      Swal.fire({
+        position: "top",
+        icon: "success",
+        title: "User logged in successfully.",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      navigate(from, { replace: true });
+    } else {
+      Swal.fire({
+        position: "top",
+        icon: "error",
+        title: res.error.message, // Assuming `error` is part of `res`
+        showConfirmButton: false,
+        timer: 1500,
+      });
+    }
   };
 
   return (

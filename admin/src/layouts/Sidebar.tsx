@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import MenuItems from "./MenuItem";
@@ -10,7 +11,6 @@ interface SidebarProps {
   selectedItem?: string | null;
   handleItemClick: (color: string, text: string) => void;
 }
-
 const Sidebar: React.FC<SidebarProps> = ({
   handleIsSideBarOpen,
   isSideBarOpen,
@@ -18,6 +18,12 @@ const Sidebar: React.FC<SidebarProps> = ({
   selectedColor,
   selectedItem,
 }) => {
+  const role:any = localStorage.getItem("role");
+console.log('Hello ------------->',role);
+  const filteredMenuItems = MenuItems.filter((item) =>
+    item.roles.includes(role)
+  );
+
   return (
     <div className="overflow-y-auto h-full hide-scrollbar  ">
       <div className="text-white   ">
@@ -46,7 +52,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
         {isSideBarOpen ? (
           <ul className="mt-2  ">
-            {MenuItems.map((item) => (
+            {filteredMenuItems?.map((item) => (
               <li key={item.id} className="py-1 ">
                 <Link
                   to={item.link}
@@ -75,7 +81,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           </ul>
         ) : (
           <ul className="mt-2 relative lg:w-40  md:w-40 xl:w-[5rem]">
-            {MenuItems.map((item) => (
+            {filteredMenuItems.map((item) => (
               <li key={item.id} className="py-[0.5rem]">
                 <Link
                   to={item.link}
