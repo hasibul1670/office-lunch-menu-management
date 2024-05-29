@@ -53,15 +53,18 @@ export default function LogIn() {
     };
 
     const res: any = await loginUser({ data: payload });
-    const token = res.data.data.accessToken;
-    const email = res.data.data.email;
-    const role = res.data?.data?.role;
-    const userId = res.data?.data?.userId;
-    localStorage.setItem("token", token);
-    localStorage.setItem("email", email);
-    localStorage.setItem("role", role);
-    localStorage.setItem("userId", userId);
 
+    if (res.data) {
+      const token = res.data.data.accessToken;
+      const email = res.data.data.email;
+      const role = res.data?.data?.role;
+      const userId = res.data?.data?.userId;
+      localStorage.setItem("token", token);
+      localStorage.setItem("email", email);
+      localStorage.setItem("role", role);
+      localStorage.setItem("userId", userId);
+    }
+    console.log("Hello ------------->", res.error);
     if (res.data?.statusCode === 200) {
       Swal.fire({
         position: "top",
@@ -75,7 +78,7 @@ export default function LogIn() {
       Swal.fire({
         position: "top",
         icon: "error",
-        title: res.error.message, // Assuming `error` is part of `res`
+        title: res?.error?.data?.message,
         showConfirmButton: false,
         timer: 1500,
       });
