@@ -4,6 +4,10 @@
   ### Client Site : https://olmm-inky.vercel.app/
   ### Server Site : https://olmmserver.vercel.app/
 
+# Login Credentials [email || password]
+  - Employee: demo@gmail.com || 110220
+  - Admin: demo2@gmail.com || 110220
+    
 # SnapShort 
 ###  Admin Site
   ### Dashboard HomePage Show OverAll App Data
