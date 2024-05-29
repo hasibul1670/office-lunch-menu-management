@@ -19,7 +19,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   selectedItem,
 }) => {
   const role:any = localStorage.getItem("role");
-console.log('Hello ------------->',role);
+
   const filteredMenuItems = MenuItems.filter((item) =>
     item.roles.includes(role)
   );

@@ -9,6 +9,7 @@ export type ILoginUserResponse = {
   accessToken: string;
   refreshToken?: string;
   email?: string;
+  userId?: number;
   role?: string;
 };
 

@@ -56,11 +56,12 @@ export default function LogIn() {
     const token = res.data.data.accessToken;
     const email = res.data.data.email;
     const role = res.data?.data?.role;
+    const userId = res.data?.data?.userId;
     localStorage.setItem("token", token);
     localStorage.setItem("email", email);
     localStorage.setItem("role", role);
+    localStorage.setItem("userId", userId);
 
-    console.log("Hello ------------->",res, email,role);
     if (res.data?.statusCode === 200) {
       Swal.fire({
         position: "top",

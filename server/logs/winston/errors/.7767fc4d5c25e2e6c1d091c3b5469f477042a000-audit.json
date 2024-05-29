@@ -99,6 +99,21 @@
             "date": 1716990663478,
             "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-29-05-19-error.log",
             "hash": "464929bc644fa5ba1e1e9702817bf3aabb188fab27e22f842896ccb9b9be5edc"
+        },
+        {
+            "date": 1716993872114,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-29-05-20-error.log",
+            "hash": "0c96b16c620dae00885f9c21a37e9168738a116aa5fb64ede748fe47acf059b0"
+        },
+        {
+            "date": 1716994858117,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-29-05-21-error.log",
+            "hash": "128dce1929046d502cccc45cc6fdc6cbfb2b3438410df549d04842713286ff5d"
+        },
+        {
+            "date": 1717000629029,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-29-05-22-error.log",
+            "hash": "8e5ede696194b7a3d0e2aca7f971321712b6675e754e7c93e7bb3ac3c9e6a302"
         }
     ],
     "hashType": "sha256"

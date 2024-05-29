@@ -24,6 +24,7 @@ const loginUser = catchAsync(async (req: Request, res: Response) => {
       accessToken: result.accessToken,
       role: result.role,
       email: result.email,
+      userId: result.userId,
     },
   });
 });
