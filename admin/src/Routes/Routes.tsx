@@ -5,6 +5,7 @@ import LogIn from "../pages/LoginPage/Login";
 import Logout from "../pages/LogoutPage/Logout";
 import MenuManagement from "../pages/MenuManagement/MenuManagement";
 import { default as MySelection } from "../pages/MySelection/MySelection";
+import NotFound from "../pages/NotFound";
 import TodaysMenu from "../pages/TodaysMenu/TodaysMenu";
 import User from "../pages/User/User";
 import PrivateRoute from "./PrivateRoute";
@@ -69,6 +70,7 @@ const LayoutRouter = () => {
                   }
                 />
                 <Route path="/logout" element={<Logout />} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
             </DefaultLayout>
           }
