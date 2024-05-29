@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\.acddd47f496431d2e2e214620a79d4fecb21d628-audit.json",
+    "files": [
+        {
+            "date": 1716380168783,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\phu-2024-22-05-18-error.log",
+            "hash": "58f7ef582922495810e3465e993ef12662ec5c76bbe452c52072e0c98e8386c0"
+        },
+        {
+            "date": 1716383180589,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\phu-2024-22-05-19-error.log",
+            "hash": "72c604651598517cbe803a56aafa1fd9cb4cb61f01eb2aec6ead86f1f5d51311"
+        },
+        {
+            "date": 1716392957485,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\phu-2024-22-05-21-error.log",
+            "hash": "8a4bbd378e9c28bb41884013cdb984d98508107ecf6d087a06eeabafd8b541e3"
+        },
+        {
+            "date": 1716396916483,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\phu-2024-22-05-22-error.log",
+            "hash": "1b8918626a60131e7a7b175926e95946dc5963b286347b139988cc83f1566a86"
+        },
+        {
+            "date": 1716398597587,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\phu-2024-22-05-23-error.log",
+            "hash": "68d47707caafdec5b89062171dd1cd0e5f63ed54c7ff00ed76ef3f40aee8d095"
+        },
+        {
+            "date": 1716400804164,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\phu-2024-23-05-00-error.log",
+            "hash": "028dfa50eab46246da3672c8d3886ab6de3c95195be275f09e07f53e26f0eb35"
+        },
+        {
+            "date": 1716697858035,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\phu-2024-26-05-10-error.log",
+            "hash": "d8ebb841727956544bb1d276c05eac3f21ca3f81b761edb07c7f841088b0135e"
+        }
+    ],
+    "hashType": "sha256"
+}

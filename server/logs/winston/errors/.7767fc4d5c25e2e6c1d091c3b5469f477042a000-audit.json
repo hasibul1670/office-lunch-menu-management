@@ -1,0 +1,100 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\.7767fc4d5c25e2e6c1d091c3b5469f477042a000-audit.json",
+    "files": [
+        {
+            "date": 1716698134030,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-10-error.log",
+            "hash": "c913abab4bd9278334500cd960e84de75ace069ea121355bb797b06341eec2e6"
+        },
+        {
+            "date": 1716699840464,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-11-error.log",
+            "hash": "c689f593d8966722d2c8705ef3e8e648902c07f313b4e153e3315ea356876bd2"
+        },
+        {
+            "date": 1716710130190,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-13-error.log",
+            "hash": "84516bb130d95c5354dcdfa550b5ce1697b939589f11035b46858438699ad47d"
+        },
+        {
+            "date": 1716711101412,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-14-error.log",
+            "hash": "851a45d16dd43edf2e4a4a42228dd845bbb7471a107d5e68a65cf2501821790b"
+        },
+        {
+            "date": 1716714007448,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-15-error.log",
+            "hash": "5bb393444c7438574f9f00842ac312a9e471975c479dbf19305598bcb8fc2894"
+        },
+        {
+            "date": 1716720842916,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-16-error.log",
+            "hash": "545955e3c0bb21d4ffdb56c7c0803f77e673774f11b754895e2afc8718dc5ae7"
+        },
+        {
+            "date": 1716737260024,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-21-error.log",
+            "hash": "f625dd04d0f010e7863ffd7d7fbe6cba7fc1e0504a34ce6f4f5a16a2e9b3b490"
+        },
+        {
+            "date": 1716739371764,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-26-05-22-error.log",
+            "hash": "0034d95fbbd46048445b0cfb3110d15923fec3ffe9647cc9e54d75ff3666ac64"
+        },
+        {
+            "date": 1716787389440,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-27-05-11-error.log",
+            "hash": "030fd4c0339d27e8f938cbf75e5c3dc9fd16c108b0e87612107719be2984ac27"
+        },
+        {
+            "date": 1716798068772,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-27-05-14-error.log",
+            "hash": "2ee6572b5869814bfba6002d61fdc9d34bc6d1e0a4fe2305db7a27b21e63e227"
+        },
+        {
+            "date": 1716890290851,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-28-05-15-error.log",
+            "hash": "4a65cb18d83ae7461a2a15a0fc465deae583d179fcaf43a579fe1db5ec39d68b"
+        },
+        {
+            "date": 1716890774685,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-28-05-16-error.log",
+            "hash": "62af4a9433d95411dcd8ae059214db9b6c1b36482717945a403fdfcc88d2913e"
+        },
+        {
+            "date": 1716903074941,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-28-05-19-error.log",
+            "hash": "7d7c291e17d2597a371c2dec54ef59b7e668ad9276f01fd9f354367b8e2e53a6"
+        },
+        {
+            "date": 1716904826568,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-28-05-20-error.log",
+            "hash": "d5835164f05089806cb4e55d98b1e4c370efc936d260fb001bfa8df327db0a3e"
+        },
+        {
+            "date": 1716909222393,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-28-05-21-error.log",
+            "hash": "65f33ab981738dcea9e4cd05fbc2a85e45498898ac2fcc411df7fa8e1ed49c05"
+        },
+        {
+            "date": 1716949156050,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-29-05-08-error.log",
+            "hash": "184b09267a9d7edb7210188437bdfaf8d0f1f59441385a4ee7e7759d47b41e3d"
+        },
+        {
+            "date": 1716956412938,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-29-05-10-error.log",
+            "hash": "09cc305b0c4de35112e168e01f76a2d7834405d547b4acd9706a304ba648777c"
+        },
+        {
+            "date": 1716986209147,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\OLMM-2024-29-05-18-error.log",
+            "hash": "cf59d0388b7f7bb5cddcff06b265c1eb58586e860431a0612fc30c5c84202e43"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\.f58f2c6c40c02b22f15164356c4b89304a5352ca-audit.json",
+    "files": [
+        {
+            "date": 1716380168779,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\phu-2024-22-05-18-success.log",
+            "hash": "0978c7eab5d084f693fe239406319a350eebb00b227ca87757606aab8cee23db"
+        },
+        {
+            "date": 1716383180581,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\phu-2024-22-05-19-success.log",
+            "hash": "ad3b1120123147d6e88f1de5e02d72d7c1c2240090033f259222f88293735fc8"
+        },
+        {
+            "date": 1716392957475,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\phu-2024-22-05-21-success.log",
+            "hash": "085b7c56ee3ac61b4dcbd0c596e6610c6f0b2edc56bc57279c758d30b47311c2"
+        },
+        {
+            "date": 1716396916469,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\phu-2024-22-05-22-success.log",
+            "hash": "93f30f5bb0583b2a6210e51f2674bced6738c9ab46dd7abe1b40d6f6e135c704"
+        },
+        {
+            "date": 1716398597582,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\phu-2024-22-05-23-success.log",
+            "hash": "dae4fdd5b0c849e5dc398adee1018e691167d6560d4882b1dfabde417c629887"
+        },
+        {
+            "date": 1716400804159,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\phu-2024-23-05-00-success.log",
+            "hash": "0af46a717d6f70f92838af11e190989547133937ad8bc970d7dab9be6edd2d22"
+        },
+        {
+            "date": 1716697858023,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\successes\\phu-2024-26-05-10-success.log",
+            "hash": "aacc01415ccaf328ddec9a73f5cd089ffcbb4c7ffbfa8011bdb2a862767c1dc3"
+        }
+    ],
+    "hashType": "sha256"
+}

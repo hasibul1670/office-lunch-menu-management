@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\.798b0ffb755c34da9f90ae96765c8cec38d7555a-audit.json",
+    "files": [
+        {
+            "date": 1716698132220,
+            "name": "D:\\TASK\\office-lunch-menu-management\\server\\logs\\winston\\errors\\-2024-26-05-10-error.log",
+            "hash": "02d5367639f377b11abda21e62df9e3e606bd3f461d0cf4e3c78ad4b7807d158"
+        }
+    ],
+    "hashType": "sha256"
+}
