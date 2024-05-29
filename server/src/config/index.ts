@@ -19,8 +19,5 @@ export default {
     refresh_expires_in: process.env.REFRESH_EXPIRES_IN,
     passwordResetTokenExpirationTime: process.env.PASS_RESET_EXPIRATION_TIME,
   },
-  reset_link: process.env.RESET_LINK,
-  email: process.env.EMAIL,
-  app_pass: process.env.APP_PASS,
   bycrypt_salt_rounds: process.env.SALT_ROUND,
 };

@@ -111,7 +111,7 @@ const CreateMenuModal: React.FC<iEditMenuModalType> = ({ closeModal }) => {
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Menu Options
                 </label>
-                {options.map((option, index) => (
+                {options.map((_option, index) => (
                   <div key={index} className="flex justify-between mb-4">
                     <div className="w-1/2 mr-2">
                       <input

@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { useNavigate } from "react-router-dom";
 import Loader from "../../components/LoaderComponent/Loader";
 import CardComponent2 from "../../components/SharedComponents/CardComponent2";
 import Headline from "../../components/SharedComponents/Headline";
@@ -8,7 +7,6 @@ import { useGetSelectionQuery } from "../../redux/features/selection/selectionAp
 import { formatDate } from "../../utils/dateFormater";
 
 const MySelection = () => {
-  const navigate = useNavigate();
   const { data, isLoading } = useGetSelectionQuery("");
   const today = new Date();
   const todayString = formatDate(today.toISOString());
