@@ -58,7 +58,7 @@
 
 ## Technologies Used
 - Frontend:TypeScripts,Tailwind CSS,Material-UI
-- Backend: Node.js, Express.js,Typescript
+- Backend: Node.js, Express.js,Prisma,Typescript
 - Database: PosgreSQL
 - Deployment: Vercel
 
