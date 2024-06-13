@@ -10,6 +10,8 @@
     
 # SnapShort 
 ###  Admin Site
+<img width="959" alt="image" src="https://github.com/hasibul1670/office-lunch-menu-management/assets/67514534/4e84536e-cd1e-4f88-9830-ee52a0e46a03">
+
   ### Dashboard HomePage Show OverAll App Data
 ![alt text](image.png)
   ### Admin Dashboard Show All Sales Data 
